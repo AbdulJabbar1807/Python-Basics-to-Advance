@@ -1,6 +1,3 @@
-import math
-import random
-
 x = 2
 y = 5
 z = 7
@@ -29,12 +26,6 @@ print(y//2) # will remove decimal values after fraction.
 print(x<y)
 print(x < y and y < z) #print(x < y < z)
 print(x == y and y < z) # print(x == y < z)
-
-
-print(math.floor(3.6)) # will take the closest bottom value.
-print(math.floor(-4.8))
-print(math.trunc(6.9)) # will always take the value closest to zero.
-print(math.trunc(-7.3))
 
 # Complex numbers
 complex_num = 5 + 1j # here j represents imaginary number.
