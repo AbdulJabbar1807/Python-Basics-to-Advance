@@ -49,3 +49,8 @@ print(int('64',16))
 # Bitwise operator's
 p = 1
 print(p << 1)
+
+# Boolean's
+print(type(True))
+print(True == 1)
+print(True is 1)
