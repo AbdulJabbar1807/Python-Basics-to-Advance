@@ -54,3 +54,13 @@ print(p << 1)
 print(type(True))
 print(True == 1)
 print(True is 1)
+
+# Absolute value
+p = -2.35
+q = 8
+r = 5
+print(abs(p))
+print(divmod(q,r)) # (q // r , q % r)
+print(pow(q,r)) # q to the power r
+complex_num_01 = complex(3+7j) # complex number
+print(complex_num_01)
