@@ -25,3 +25,10 @@ print(coffee_type[1:2])
 print(coffee_type[2])
 coffee_type[1:4] = [] # deletion operation
 print(coffee_type)
+
+# for loop in python
+coffee_type = ['Arabica','Robusta','Liberica']
+for coffee in coffee_type:
+    print(coffee)
+for coffee in coffee_type:
+    print(coffee,end=",")
