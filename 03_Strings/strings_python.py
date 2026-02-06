@@ -20,7 +20,8 @@ num_list = "0123456789"
 print(num_list[:])
 print(num_list[0:5])
 print(num_list[-1])
-
+print(num_list[0:8:2])
+print(num_list[-1::-1])
 # String methods.
 print(name.lower())
 print(name.upper())
