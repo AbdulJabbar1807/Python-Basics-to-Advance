@@ -1,8 +1,9 @@
-coffee_type = ['Arabica','Robusta','Liberica']
+coffee_type = ['arabica','robusta','liberica']
 print(coffee_type)
 print(coffee_type[0])
 print(coffee_type[0:2])
-
+reversed_coffee_type = [coffee.capitalize()[::-1] for coffee in coffee_type]
+print(reversed_coffee_type)
 coffee_type[2] = 'Excelsa'
 print(coffee_type)
 
