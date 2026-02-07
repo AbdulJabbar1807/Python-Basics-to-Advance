@@ -1,5 +1,5 @@
 # String methods.
-branch = "    Computer Science   "
+branch = "    Computer    Science   "
 coffee = "Blackcoffee , Americano , Coldcoffee"
 name = "Abdul Jabbar"
 print(name)
@@ -13,10 +13,8 @@ print(len(name))
 for character in name:
     print(character)
 
-print(branch.strip())
 print(branch.split())
 
-print(coffee.split())
 print(coffee.split(" , "))
 print(coffee.replace("Americano","Cappuccino")) 
 
