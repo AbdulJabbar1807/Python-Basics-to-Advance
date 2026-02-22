@@ -1,3 +1,4 @@
+#Age group categorization.
 age = input("Enter your age : ")
 age_in_int = int(age)
 
