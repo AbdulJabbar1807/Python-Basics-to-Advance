@@ -1,3 +1,4 @@
+# Fruit ripeness checker.
 Fruit = input("Enter your fruit name : ")
 Fruit_color = input("Enter your fruit color : ")
 

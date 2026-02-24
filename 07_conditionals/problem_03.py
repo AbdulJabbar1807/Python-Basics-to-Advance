@@ -1,3 +1,4 @@
+# Student grade calculator.
 Marks = int(input("Enter your grade : "))
 if Marks >= 101:
     print("Please!review your Marks.")
